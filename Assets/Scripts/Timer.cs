@@ -17,13 +17,13 @@ public class Timer : MonoBehaviour
     private float currentTime;
     private bool isGameOver = false;
 
-    private void Start()
+    public void Start()
     {
         currentTime = timeLimit;
         UpdateTimerUI();
     }
 
-    private void Update()
+    public void Update()
     {
         if (!isGameOver)
         {
@@ -38,7 +38,7 @@ public class Timer : MonoBehaviour
         }
     }
 
-    private void UpdateTimerUI()
+    public void UpdateTimerUI()
     {
         int minutes = Mathf.FloorToInt(currentTime / 60f);
         int seconds = Mathf.FloorToInt(currentTime % 60f);

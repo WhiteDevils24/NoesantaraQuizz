@@ -9,6 +9,7 @@ public class QuizManager : MonoBehaviour
     public GameObject[] options;
     public int PertanyaanSaatIni;
     
+    
 
     public Text PertanyaanTxt;
 

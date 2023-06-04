@@ -6,6 +6,7 @@ public class ScriptJawaban : MonoBehaviour
 {
     public bool AdalahBenar = false;
     public QuizManager quizManager;
+    public Points Point;
     public static ScriptJawaban Instance;
     public AudioSource SFX;
     public AudioClip BenarSFX, SalahSFX;
