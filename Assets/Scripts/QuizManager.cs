@@ -12,16 +12,24 @@ public class QuizManager : MonoBehaviour
     
 
     public Text PertanyaanTxt;
+    
+    
 
     public void Start()
     {
         BuatPertanyaan();
+
     }
+
+ 
 
     public void Benar()
     {
         TanyaDanJawab.RemoveAt(PertanyaanSaatIni);
         BuatPertanyaan();
+
+        
+
     }
 
     void SetPertanyaan()

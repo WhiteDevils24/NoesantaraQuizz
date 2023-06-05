@@ -1424,10 +1424,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AdalahBenar: 0
   quizManager: {fileID: 1110645175}
-  Point: {fileID: 0}
   SFX: {fileID: 1442307000}
   BenarSFX: {fileID: 8300000, guid: 0db9ca728b67847b1b43b2e9c96549f3, type: 3}
   SalahSFX: {fileID: 8300000, guid: 88de2fa1779a94a6eb193374d6dbf103, type: 3}
+  Score: {fileID: 1671423479}
 --- !u!1 &377751661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1698,10 +1698,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AdalahBenar: 0
   quizManager: {fileID: 1110645175}
-  Point: {fileID: 0}
   SFX: {fileID: 1442307000}
   BenarSFX: {fileID: 8300000, guid: 0db9ca728b67847b1b43b2e9c96549f3, type: 3}
   SalahSFX: {fileID: 8300000, guid: 88de2fa1779a94a6eb193374d6dbf103, type: 3}
+  Score: {fileID: 1671423479}
 --- !u!1 &463719575
 GameObject:
   m_ObjectHideFlags: 0
@@ -2345,10 +2345,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AdalahBenar: 0
   quizManager: {fileID: 1110645175}
-  Point: {fileID: 0}
   SFX: {fileID: 1442307000}
   BenarSFX: {fileID: 8300000, guid: 0db9ca728b67847b1b43b2e9c96549f3, type: 3}
   SalahSFX: {fileID: 8300000, guid: 88de2fa1779a94a6eb193374d6dbf103, type: 3}
+  Score: {fileID: 1671423479}
 --- !u!1 &764944435
 GameObject:
   m_ObjectHideFlags: 0
@@ -3479,10 +3479,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AdalahBenar: 0
   quizManager: {fileID: 1110645175}
-  Point: {fileID: 0}
   SFX: {fileID: 1442307000}
   BenarSFX: {fileID: 8300000, guid: 0db9ca728b67847b1b43b2e9c96549f3, type: 3}
   SalahSFX: {fileID: 8300000, guid: 88de2fa1779a94a6eb193374d6dbf103, type: 3}
+  Score: {fileID: 1671423479}
 --- !u!1 &1196972128
 GameObject:
   m_ObjectHideFlags: 0
@@ -4185,6 +4185,7 @@ GameObject:
   - component: {fileID: 1671423476}
   - component: {fileID: 1671423478}
   - component: {fileID: 1671423477}
+  - component: {fileID: 1671423479}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -4254,6 +4255,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1671423475}
   m_CullTransparentMesh: 1
+--- !u!114 &1671423479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671423475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b60f0cd9a59ce41faa03c9d435045acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teks: {fileID: 0}
+  NilaiScore: 0
 --- !u!1 &1745956240
 GameObject:
   m_ObjectHideFlags: 0
