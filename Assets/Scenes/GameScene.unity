@@ -630,7 +630,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 190931105}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1110645177}
+        m_TargetAssemblyTypeName: Timer, Assembly-CSharp
+        m_MethodName: ReturnToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &190931105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1213,13 +1225,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1110645177}
+        m_TargetAssemblyTypeName: Timer, Assembly-CSharp
+        m_MethodName: ReturnToMainMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1498,7 +1510,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 377751664}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1110645177}
+        m_TargetAssemblyTypeName: Timer, Assembly-CSharp
+        m_MethodName: RestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &377751664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3361,6 +3385,162 @@ MonoBehaviour:
     - Sumatra Barat
     - Nusa Tenggara Barat
     PertanyaanBenar: 3
+  - Pertanyaan: Sedangkan Suku Bangsa Yang Tinggal Di Daerah Nusa Tenggara Barat
+      Adalah
+    Jawaban:
+    - Timor, Rote, Belu
+    - Selayar, Bone, Mandar
+    - Sasak, Sumbawa, Bima
+    - Bugis, Toraja, Bandar
+    PertanyaanBenar: 3
+  - Pertanyaan: Berikut Ini Adalah Upacara Adat Yang Berasal Dari Kalimantan Tengah
+    Jawaban:
+    - Tiwah
+    - Buang Juah
+    - Ngalaksa
+    - Aruh Baharin
+    PertanyaanBenar: 0
+  - Pertanyaan: Kesenian Tradisional Ondel - Ondel Berasal Dari Daerah
+    Jawaban:
+    - Jawa Barat
+    - Maluku
+    - D.K.I Jakarta
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Alat Musik Tifa Berasal Dari Daerah
+    Jawaban:
+    - Jawa Tengah
+    - Papua
+    - Maluku
+    - Sulawesi Selatan
+    PertanyaanBenar: 2
+  - Pertanyaan: Tari Cakalele Berasal Dari Daerah
+    Jawaban:
+    - Kalimantan Tengah
+    - Nusa Tenggara Barat
+    - Sulawesi Utara
+    - Jawa Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Berikut Ini Adalah Adalah Kebudayaan Indonesia Yang Sudah Diakui
+      Oleh Dunia Internasional Sebagai Warisan Buda Dunia
+    Jawaban:
+    - Sekaten, Batik, Subak
+    - Reog, Tari Barong, Tari Perang
+    - Keris, Kujang , Rencong
+    - Wayak, Kethoprak, Ludruk
+    PertanyaanBenar: 0
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
+  - Pertanyaan: Tari Piring berasal dari daerah
+    Jawaban:
+    - Jawa Tengah
+    - Bali
+    - Sumatra Barat
+    - Nusa Tenggara Barat
+    PertanyaanBenar: 3
   options:
   - {fileID: 1184319345}
   - {fileID: 373996746}
@@ -3395,7 +3575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b60599737c0cc4c8fabe3feb6cdcfcd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 10
+  timeLimit: 120
   timerText: {fileID: 300430394}
   gameOverPanel: {fileID: 1482699830}
   restartButton: {fileID: 1844298866}
@@ -4608,7 +4788,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1844298867}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1110645177}
+        m_TargetAssemblyTypeName: Timer, Assembly-CSharp
+        m_MethodName: RestartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1844298867
 MonoBehaviour:
   m_ObjectHideFlags: 0

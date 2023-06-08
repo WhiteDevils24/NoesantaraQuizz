@@ -62,12 +62,12 @@ public class Timer : MonoBehaviour
         // Perform any other game over actions
     }
 
-    private void RestartGame()
+    public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    private void ReturnToMainMenu()
+    public void ReturnToMainMenu()
     {
         SceneManager.LoadScene("StartMenuScene"); // Replace "MainMenu" with the name of your main menu scene
     }
